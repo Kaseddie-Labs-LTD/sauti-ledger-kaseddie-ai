@@ -1,0 +1,56 @@
+{
+  "users": [
+    {
+      "id": "0e556bf5-fa1f-4aa3-b437-5395a8c299d4",
+      "email": "kaseddie@gmail.com",
+      "workosUserId": "user_01KAG6C4A4TKANKBDN23TMCD11",
+      "kycStatus": "verified",
+      "walletBalance": 9999.8,
+      "activeStrategy": null,
+      "stripeCustomerId": null,
+      "createdAt": "2025-11-25T12:24:31.753Z",
+      "updatedAt": "2025-11-26T13:55:33.157Z",
+      "kycVerifiedAt": "2025-11-26T13:49:47.769Z",
+      "kycDocuments": {
+        "idDocument": "National ID.jpg",
+        "selfie": "First KYC Test Phot.jpg"
+      }
+    }
+  ],
+  "trades": [
+    {
+      "id": "5e398486-f5d7-4a5c-933a-f4892a1966ef",
+      "userId": "0e556bf5-fa1f-4aa3-b437-5395a8c299d4",
+      "symbol": "BTC",
+      "strategy": "momentum",
+      "action": "BUY",
+      "price": 86986.47,
+      "amount": 0.0011496040706100615,
+      "usdValue": 100,
+      "fee": 0.1,
+      "stopLoss": 85246.7406,
+      "takeProfit": 90465.92880000001,
+      "confidence": 77,
+      "reasoning": "Momentum building, good entry point",
+      "status": "completed",
+      "timestamp": "2025-11-26T13:54:51.916Z"
+    },
+    {
+      "id": "31cb1710-dc86-47ca-b994-6e2d8d9fbcc4",
+      "userId": "0e556bf5-fa1f-4aa3-b437-5395a8c299d4",
+      "symbol": "BTC",
+      "strategy": "support-resistance",
+      "action": "SELL",
+      "price": 86986.96,
+      "amount": 0.0011495975948578958,
+      "usdValue": 100,
+      "fee": 0.1,
+      "stopLoss": 88726.6992,
+      "takeProfit": 83507.4816,
+      "confidence": 86,
+      "reasoning": "Price near resistance level",
+      "status": "completed",
+      "timestamp": "2025-11-26T13:55:33.250Z"
+    }
+  ]
+}
